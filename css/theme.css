@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+body{
+  background:url('img/bg2.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:#0Cadbb;
+}
+
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+  z-index: 3;
+}
+
+.carousel.carousel-fade .item img{
+  margin: 0 auto;
+  max-height:100%;
+}
+
+ol.carousel-indicators{
+  display:none;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Lato', sans-serif;
+font-weight:400;
+}
+
+p{
+font-family: 'Lato', sans-serif;
+  font-weight:300;
+}
+
+
+.intro p.lead{
+  font-size:2em;
+}
+
+h1{
+  display:block;
+  background:url('img/v_logo.png') no-repeat center center;
+}
+
+
+.intro{
+  margin-top:10%;
+  padding:2em;
+  text-align:center;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .intro{
+      display:block;
+      width:100%;
+      margin-top:5%;
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    .intro{
+      display:block;
+      width:100%;
+      margin-top:5%;
+    }
+}

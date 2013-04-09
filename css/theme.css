@@ -79,6 +79,10 @@ h1{
   margin-bottom:30px;
 }
 
+.icon-facetime-video{
+  color:#fff;
+}
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {

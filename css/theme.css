@@ -65,10 +65,19 @@ h1{
 
 .intro{
   margin-top:10%;
+  margin-bottom:30px;
   padding:2em;
   text-align:center;
+  font-size:1.2em;
 }
 
+.btn{
+  font-family:'Lato', sans-serif;
+}
+
+.subtext{
+  margin-bottom:30px;
+}
 
 @media only screen 
 and (min-device-width : 320px) 

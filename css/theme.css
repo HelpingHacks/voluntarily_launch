@@ -47,8 +47,8 @@ font-family: 'Lato', sans-serif;
 font-weight:400;
 }
 
-p{
-font-family: 'Lato', sans-serif;
+p, a{
+font-family: 'Lato', helvetica, sans-serif;
   font-weight:300;
 }
 
@@ -81,6 +81,21 @@ h1{
 
 .icon-facetime-video{
   color:#fff;
+}
+
+
+#myModal{
+  color:#333;
+}
+
+ul.bulleted{
+  list-style-type:circle;
+}
+
+a.helpout{
+  color:#fff;
+  text-decoration:underline;
+  font-size:15px;
 }
 
 @media only screen 
